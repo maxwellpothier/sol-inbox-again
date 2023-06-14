@@ -1,10 +1,9 @@
-// "SPDX-License-Identifier: UNLICENSED"
 pragma solidity ^0.4.17;
 
 contract Inbox {
 	string private message;
 
-	constructor(string initialMessage) public {
+	function Inbox(string initialMessage) public {
 		message = initialMessage;
 	}
 
