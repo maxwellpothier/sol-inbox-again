@@ -25,6 +25,7 @@ const deploy = async () => {
 		});
 
 	console.log("Contract deployed to", inbox.options.address);
+	provider.engine.stop();
 };
 
 deploy();
